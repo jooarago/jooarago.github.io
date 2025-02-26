@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dicas para o Arroz"
+date: 2025-02-26
+---
+
 - Banha de porco.
 - Picar alho e cebola, jogá-los juntos na panela e deixar os dois refogando por no mínimo 3 minutos em fogo baixo.
 - Refogar uns 3 minutos o arroz.
