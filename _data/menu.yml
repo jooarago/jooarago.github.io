@@ -1,0 +1,14 @@
+entries:
+  - title: info
+    entries:
+      - title: sobre
+        url: info/sobre
+      - title: contato
+        url: info/contato
+
+  - title: posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: Ver mais posts...
+      show_more_url: archive.html
