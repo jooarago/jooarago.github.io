@@ -31,6 +31,37 @@ github_username:  jekyll
 remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
+
+# Jekyll Spaceship configuration
+jekyll-spaceship:
+  processors:
+    - table-processor: false       # Disable table processor
+    - mathjax-processor: true      # Enable only MathJax processor
+    - plantuml-processor: false    # Disable plantuml processor
+    - mermaid-processor: false     # Disable mermaid processor
+    - polyfill-processor: false    # Disable polyfill processor
+    - media-processor: false       # Disable media processor
+    - emoji-processor: false       # Disable emoji processor
+    - element-processor: false     # Disable element processor
+  mathjax-processor:
+    src:
+      - https://polyfill.io/v3/polyfill.min.js?features=es6
+      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    config:
+      tex:
+        inlineMath:
+          - ['$','$']
+          - ['\(','\)']
+        displayMath:
+          - ['$$','$$']
+          - ['\[','\]']
+      svg:
+        fontCache: 'global'
+    optimize:
+      enabled: true
+      include: []
+      exclude: []
 
 # Exclude from processing.
 # The following items will not be processed, by default.
