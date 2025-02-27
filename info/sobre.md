@@ -3,4 +3,4 @@ title: sobre
 layout: page
 ---
 
-e-mail: joao.sales.aragao@gmail.com
+Oi! Meu nome é João Lucas Sales Aragão.
